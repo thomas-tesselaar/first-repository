@@ -16,14 +16,24 @@
  '''
 
 def check_typeI_password(string pword):
-
+  
 
 
 
 def check_typeII_password(string pword):
+  #Check that it contains at least 12 characters
+  if(len(pword)<12):
+    return False
+  
+  #Check for an uppercase letter
+  if(pword.lower()==pword):
+    return False
+  #Check for a lowercase letter
+  elif(pword.upper()==pword):
+    return False
 
-
-
+  #Check for at least one number
+  if
 
 def check_password(string password):
   
