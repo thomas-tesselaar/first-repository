@@ -1,0 +1,49 @@
+body {
+  font-family: helvetica;
+}
+
+.scoreboard {
+  width: 100vw;
+  background-color: orange;
+}
+
+.scoreboard h1 {
+  display: inline-block;
+}
+
+.rules {
+  position: absolute;
+}
+
+#rulestitle {
+  margin-right: 0;
+  padding-right: 10px;
+}
+
+#rulebook {
+  width: 40vw;
+  display: none;
+}
+
+.cookie {
+  display: block;
+  margin: 30px auto 0;
+  width: 50%;
+}
+
+.cookie:hover {
+  cursor: pointer;
+  width: 51%;
+}
+
+#score {
+  color: red;
+}
+
+#warning {
+  display: none;
+}
+
+#boosted {
+  display: none;
+}
