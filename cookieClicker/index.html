@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="resources/style.css" type="text/css" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <title>Cookie Clicker</title>
+  </head>
+  <body>
+    <div class='scoreboard'>
+      <h1>Score:</h1>
+      <h1 id='score'>0</h1>
+    </div>
+    <div class='rules'>
+      <h2 id='rulestitle' onmouseover="ruleson()" onmouseout="rulesoff()">Rules ></h2>
+      <h4 id='rulebook'>Click the cookie to increase your score. Click the booster
+        to increase your revenue. You win when you reach 10000 cookies</h4>
+    </div>
+
+    <img onclick="cookieClick()" class='cookie' src="https://www.otisspunkmeyer.com/sites/default/files/styles/large/public/products/OS-Fundraising-ChocolateChipTop_whitespace.png?itok=BKw4fYJ7" alt="cookie">
+
+    <h3 onclick="reset()">Click to reset</h3>
+
+    <button onclick="boosterClick()">Booster (Cost: 10pts)</button>
+
+    <h3 id='warning'>Warning: Not enough score</h3>
+    <h3 id='boosted'>Clicker boosted! Booster is now 1</h3>
+
+  </body>
+</html>
